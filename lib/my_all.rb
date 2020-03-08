@@ -12,4 +12,6 @@ end
 return true
 end
 
-my_all()
+my_all(numbers){|num| num > 10} 
+my_all(names){}
+my_all(collections)
