@@ -8,4 +8,10 @@ block_return_values<<
 yield(collection[i])
 i += i 
 end
+
+if block_return_values.include?
+  (false)
+else
+  true 
+end
 end 
