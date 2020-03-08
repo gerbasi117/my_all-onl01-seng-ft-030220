@@ -12,4 +12,4 @@ end
 return true
 end
 
-my_all
+my_all()
