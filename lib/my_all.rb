@@ -13,5 +13,5 @@ return true
 end
 
 my_all(numbers){|num| num > 10} 
-my_all(names){}
+my_all(names){|name| name.length == 6}
 my_all(collections)
