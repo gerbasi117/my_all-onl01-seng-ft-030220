@@ -2,17 +2,14 @@ require 'pry'
 
 def my_all?(collection)
 i = 0
-block_return_values = []
 while i < collection.length
 block_return_values << 
-yield(collection[i])
-i += i 
+yield(collection[i]) == false
+return false
+end
+i += i
+end
+return true
 end
 
-if block_return_values.include?
-  (false)
-  false 
-else
-  true 
-end
-end 
+my_all
