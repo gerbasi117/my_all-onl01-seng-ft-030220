@@ -7,7 +7,7 @@ block_return_values <<
 yield(collection[i]) == false
 return false
 end
-i += i
+i += 1
 end
 return true
 end
